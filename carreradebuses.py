@@ -56,7 +56,6 @@ def carrera():
     while not alguienGana:
         borrarPantalla()
         
-        # Turno del Bus 1
         if siAvanza():
             busUno += 1
         
@@ -70,7 +69,6 @@ def carrera():
         
         borrarPantalla()
         
-        # Turno del Bus 2
         if siAvanza():
             busDos += 1
             
@@ -82,5 +80,4 @@ def carrera():
             print("¡Brahian Gana!")
             break
 
-# Ejecutar la carrera
 carrera()
